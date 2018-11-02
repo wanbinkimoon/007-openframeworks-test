@@ -12,5 +12,5 @@ class GrigliataClass : public ofBaseApp{
 public:
   void setup();
   void update();
-  void draw(int grid, void (* element)());
+  void draw(int grid, std::function<void()> element);
 };

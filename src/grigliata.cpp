@@ -18,7 +18,7 @@ void GrigliataClass::update(){
 }
 
 //--------------------------------------------------------------
-void GrigliataClass::draw(int grid, void (* element)()){
+void GrigliataClass::draw(int grid, std::function<void()> element){
   int cell = ofGetHeight() / grid;
   int offset = cell / 2;
   for (unsigned int i = 0; i < grid; i++) {
