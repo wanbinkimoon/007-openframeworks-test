@@ -3,6 +3,7 @@
 #include "ofMain.h"
 #include "grigliata.hpp"
 #include "barretta.hpp"
+//#include "soundLab.hpp"
 
 class ofApp : public ofBaseApp{
 
@@ -23,6 +24,9 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
   
-    GrigliataClass grid;
-    BarrettaClass bar;
+  GrigliataClass grid;
+  BarrettaClass bar;
+//  SoundLab sound;
+
+    
 };
