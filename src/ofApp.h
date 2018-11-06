@@ -3,7 +3,6 @@
 #include "ofMain.h"
 #include "grigliata.hpp"
 #include "barretta.hpp"
-//#include "soundLab.hpp"
 
 class ofApp : public ofBaseApp{
 
@@ -26,7 +25,6 @@ class ofApp : public ofBaseApp{
   
   GrigliataClass grid;
   BarrettaClass bar;
-//  SoundLab sound;
-
+  ofShader shader;
     
 };
